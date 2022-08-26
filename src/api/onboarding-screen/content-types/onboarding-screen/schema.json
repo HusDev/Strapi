@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "onboarding_screens",
+  "info": {
+    "singularName": "onboarding-screen",
+    "pluralName": "onboarding-screens",
+    "displayName": "onboardingScreen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "nextScreen": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "screenName": {
+      "type": "string"
+    }
+  }
+}
